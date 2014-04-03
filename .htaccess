@@ -1,0 +1,15 @@
+Options -MultiViews
+
+RewriteBase /
+RewriteEngine on
+
+RewriteRule ^myadmin/(.+)$ myadmin/$1 [L,QSA]
+
+RewriteRule ^go/([0-9]+)$ go.php?id=$1 [L,QSA]
+
+RewriteRule ^main/talk/sub/archives/([0-9]+-[0-9]+)/?$ index.php?button=talk&sub=archives&streamrange=$1 [L,QSA]
+RewriteRule ^main/talk/sub/archives/([0-9]+)/?(.*)?$ index.php?button=talk&sub=archives&streamid=$1 [L,QSA]
+RewriteRule ^main/([^/]+)/sub/([^/]+)/?$ index.php?button=$1&sub=$2 [L,QSA]
+RewriteRule ^main/([^/]+)/?$ index.php?button=$1 [L,QSA]
+
+RewriteRule ^images/(.*)$ images/$1 [L,QSA]

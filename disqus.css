@@ -1,0 +1,112 @@
+#disqus_thread
+{
+	/*
+		Everything Disqus on your page is contained within this. 
+	*/
+}
+
+#disqus_thread #dsq-content
+{
+	/*
+		The main wrapper for the comment system. 
+		Ex. Change the font size: #disqus_thread #dsq-content { font-size: 10px; }  
+	*/
+}
+
+#disqus_thread #dsq-content h3
+{
+	/*
+		"Add New Comment" and "# Comments" are enclosed in h3 tags. 
+		Ex. Unbold the text: #disqus_thread #dsq-content h3 { font-weight: normal; }  
+	*/
+}
+
+#dsq-content #dsq-options-toggle
+{
+	/*
+		#dsq-options-toggle The toggle button for the thread options. 
+		Ex. Disable the Options button/link: #dsq-content #dsq-options-toggle { display: none; } 
+	*/
+}
+
+#dsq-content #dsq-extra-links
+{
+	/*
+		#dsq-extra-links The links within the thread Options 
+		Ex. Remove links: #dsq-content #dsq-extra-links { display: none; }  
+	*/
+}
+
+#dsq-content #dsq-comments
+{
+	/*
+		#dsq-comments The entire comment thread list. 
+		Ex. Change the background color: #dsq-content #dsq-comments { background-color: #000 }  
+	*/
+}
+
+#dsq-content #dsq-comments .dsq-comment
+{
+	/*
+		.dsq-comment A single comment in the thread. 
+		Ex. Change the spacing between comments: #dsq-content #dsq-comments .dsq-comment{ margin-bottom: 60px; }  
+	*/
+}
+
+#dsq-content #dsq-comments .dsq-comment-rate
+{
+	/*
+		.dsq-comment-rate The comment rating arrows for posts. 
+		Ex. Remove the arrows: #dsq-content #dsq-comments .dsq-comment-rate { display: none; }  
+	*/
+}
+
+#dsq-content #dsq-comments .dsq-comment-header
+{
+	/*
+		.dsq-comment-header The header at the top of posts. 
+		Ex. Change header color and make taller.: #dsq-content #dsq-comments .dsq-comment-header{ background: #c03000; height: 50px; }  
+	*/
+}
+
+#dsq-comments .dsq-header-avatar img
+{
+	/*
+		.dsq-header-avatar img The avatar image for the registered. 
+		Ex. Enlarge the avatar: #dsq-content #dsq-comments .dsq-header-avatar img { height: 48px; width: 48px; } 
+	*/
+}
+ 
+#dsq-comments .dsq-header-meta
+{
+	/*
+		.dsq-header-meta This is the meta information about the post (time stamp and points). 
+		Ex. Enlarge the text: #dsq-content #dsq-comments .dsq-header-meta { font-size: 110% }  
+	*/
+}
+
+#dsq-content #dsq-comments .dsq-comment-body
+{
+	/*
+		.dsq-comment-body The message body of a single comment post.
+		Ex. Change the background color: #dsq-content #dsq-comments .dsq-comment-body { background: #000; }
+	*/
+}
+
+#dsq-content #dsq-comments .dsq-comment-footer
+{
+	/*
+		.dsq-comment-footer The footer contains the link to "reply."
+		Ex. Change the font size: #dsq-content #dsq-comments .dsq-comment-footer { font-size: 20px; }
+	*/
+}
+
+#disqus_thread #dsq-content #dsq-pagination
+{
+	/*
+		#dsq-pagination This contains and determines the style for the pagination links.
+		Ex. Change the background color: #disqus_thread #dsq-content #dsq-pagination { background-color: #c0300; }
+	*/
+}
+  
+

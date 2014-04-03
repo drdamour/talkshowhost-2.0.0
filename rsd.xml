@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+  <service>
+    <engineName>Streams</engineName>
+    <engineLink>http://talkshowhost.net/</engineLink>
+    <homePageLink>http://talkshowhost.net</homePageLink>
+    <apis>
+      <api name="WordPress" blogID="1" preferred="false" apiLink="http://talkshowhost.net/api/wpapi.php" />
+      <api name="Movable Type" blogID="1" preferred="false" apiLink="http://talkshowhost.net/api/mtapi.php" />
+      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://talkshowhost.net/api/mwapi.php" />
+      <api name="Blogger" blogID="1" preferred="false" apiLink="http://talkshowhost.net/api/bapi.php" />
+    </apis>
+  </service>
+</rsd>
